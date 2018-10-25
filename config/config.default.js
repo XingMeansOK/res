@@ -14,6 +14,7 @@ module.exports = appInfo => {
         defaultViewEngine: 'nunjucks',
         mapping: {
             '.nj': 'nunjucks',
+            '.html': 'nunjucks',
         },
     };
 

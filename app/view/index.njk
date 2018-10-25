@@ -1,1 +1,13 @@
-hello {{ username }}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>静态资源管理工具</title>
+        <link rel="stylesheet" href="public/index.css">
+    </head>
+    <body>
+        {% import "head.njk" as head %}
+            {{ head.head( 'elixing' ) }}
+        hello {{ username }}
+    </body>
+</html>
+

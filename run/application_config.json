@@ -86,26 +86,26 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/tmt/git/res/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/xingfeng/Project/git/res/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/tmt/git/res/node_modules/egg-session/config/locales",
-        "/Users/tmt/git/res/node_modules/egg-security/config/locales",
-        "/Users/tmt/git/res/node_modules/egg-jsonp/config/locales",
-        "/Users/tmt/git/res/node_modules/egg-onerror/config/locales",
-        "/Users/tmt/git/res/node_modules/egg-i18n/config/locales",
-        "/Users/tmt/git/res/node_modules/egg-watcher/config/locales",
-        "/Users/tmt/git/res/node_modules/egg-schedule/config/locales",
-        "/Users/tmt/git/res/node_modules/egg-multipart/config/locales",
-        "/Users/tmt/git/res/node_modules/egg-development/config/locales",
-        "/Users/tmt/git/res/node_modules/egg-logrotator/config/locales",
-        "/Users/tmt/git/res/node_modules/egg-static/config/locales",
-        "/Users/tmt/git/res/node_modules/egg-view/config/locales",
-        "/Users/tmt/git/res/node_modules/egg-view-nunjucks/config/locales",
-        "/Users/tmt/git/res/node_modules/egg/config/locales",
-        "/Users/tmt/git/res/config/locales"
+        "/Users/xingfeng/Project/git/res/node_modules/egg-session/config/locales",
+        "/Users/xingfeng/Project/git/res/node_modules/egg-security/config/locales",
+        "/Users/xingfeng/Project/git/res/node_modules/egg-jsonp/config/locales",
+        "/Users/xingfeng/Project/git/res/node_modules/egg-onerror/config/locales",
+        "/Users/xingfeng/Project/git/res/node_modules/egg-i18n/config/locales",
+        "/Users/xingfeng/Project/git/res/node_modules/egg-watcher/config/locales",
+        "/Users/xingfeng/Project/git/res/node_modules/egg-schedule/config/locales",
+        "/Users/xingfeng/Project/git/res/node_modules/egg-multipart/config/locales",
+        "/Users/xingfeng/Project/git/res/node_modules/egg-development/config/locales",
+        "/Users/xingfeng/Project/git/res/node_modules/egg-logrotator/config/locales",
+        "/Users/xingfeng/Project/git/res/node_modules/egg-static/config/locales",
+        "/Users/xingfeng/Project/git/res/node_modules/egg-view/config/locales",
+        "/Users/xingfeng/Project/git/res/node_modules/egg-view-nunjucks/config/locales",
+        "/Users/xingfeng/Project/git/res/node_modules/egg/config/locales",
+        "/Users/xingfeng/Project/git/res/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -115,14 +115,14 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/tmt/git/res/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/tmt/git/res/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/xingfeng/Project/git/res/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/xingfeng/Project/git/res/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/tmt/git/res/logs/res/egg-schedule.log"
+        "file": "/Users/xingfeng/Project/git/res/logs/res/egg-schedule.log"
       }
     },
     "multipart": {
@@ -136,7 +136,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "/var/folders/5n/87tx97bx65x_3bqvdq94ll4r0000gn/T/egg-multipart-tmp/res",
+      "tmpdir": "/var/folders/z6/c5_tkhq54d52rhybwqkxztz40000gn/T/egg-multipart-tmp/res",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -159,7 +159,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/tmt/git/res/app/public",
+      "dir": "/Users/xingfeng/Project/git/res/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -168,7 +168,7 @@
     },
     "view": {
       "root": [
-        "/Users/tmt/git/res/app/view"
+        "/Users/xingfeng/Project/git/res/app/view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -237,9 +237,9 @@
       "author": "elixing",
       "license": "MIT"
     },
-    "baseDir": "/Users/tmt/git/res",
-    "HOME": "/Users/tmt",
-    "rundir": "/Users/tmt/git/res/run",
+    "baseDir": "/Users/xingfeng/Project/git/res",
+    "HOME": "/Users/xingfeng",
+    "rundir": "/Users/xingfeng/Project/git/res/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -270,7 +270,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/tmt/git/res/logs/res",
+      "dir": "/Users/xingfeng/Project/git/res/logs/res",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -362,8 +362,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/tmt/git/res/node_modules/egg/config/plugin.js",
-      "path": "/Users/tmt/git/res/node_modules/egg-session",
+      "from": "/Users/xingfeng/Project/git/res/node_modules/egg/config/plugin.js",
+      "path": "/Users/xingfeng/Project/git/res/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -375,8 +375,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/tmt/git/res/node_modules/egg/config/plugin.js",
-      "path": "/Users/tmt/git/res/node_modules/egg-security",
+      "from": "/Users/xingfeng/Project/git/res/node_modules/egg/config/plugin.js",
+      "path": "/Users/xingfeng/Project/git/res/node_modules/egg-security",
       "version": "2.4.0"
     },
     "jsonp": {
@@ -388,8 +388,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/tmt/git/res/node_modules/egg/config/plugin.js",
-      "path": "/Users/tmt/git/res/node_modules/egg-jsonp",
+      "from": "/Users/xingfeng/Project/git/res/node_modules/egg/config/plugin.js",
+      "path": "/Users/xingfeng/Project/git/res/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -401,8 +401,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/tmt/git/res/node_modules/egg/config/plugin.js",
-      "path": "/Users/tmt/git/res/node_modules/egg-onerror",
+      "from": "/Users/xingfeng/Project/git/res/node_modules/egg/config/plugin.js",
+      "path": "/Users/xingfeng/Project/git/res/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -412,8 +412,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/tmt/git/res/node_modules/egg/config/plugin.js",
-      "path": "/Users/tmt/git/res/node_modules/egg-i18n",
+      "from": "/Users/xingfeng/Project/git/res/node_modules/egg/config/plugin.js",
+      "path": "/Users/xingfeng/Project/git/res/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -423,8 +423,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/tmt/git/res/node_modules/egg/config/plugin.js",
-      "path": "/Users/tmt/git/res/node_modules/egg-watcher",
+      "from": "/Users/xingfeng/Project/git/res/node_modules/egg/config/plugin.js",
+      "path": "/Users/xingfeng/Project/git/res/node_modules/egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -434,8 +434,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/tmt/git/res/node_modules/egg/config/plugin.js",
-      "path": "/Users/tmt/git/res/node_modules/egg-schedule",
+      "from": "/Users/xingfeng/Project/git/res/node_modules/egg/config/plugin.js",
+      "path": "/Users/xingfeng/Project/git/res/node_modules/egg-schedule",
       "version": "3.4.0"
     },
     "multipart": {
@@ -447,8 +447,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/tmt/git/res/node_modules/egg/config/plugin.js",
-      "path": "/Users/tmt/git/res/node_modules/egg-multipart",
+      "from": "/Users/xingfeng/Project/git/res/node_modules/egg/config/plugin.js",
+      "path": "/Users/xingfeng/Project/git/res/node_modules/egg-multipart",
       "version": "2.2.1"
     },
     "development": {
@@ -462,8 +462,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/tmt/git/res/node_modules/egg/config/plugin.js",
-      "path": "/Users/tmt/git/res/node_modules/egg-development",
+      "from": "/Users/xingfeng/Project/git/res/node_modules/egg/config/plugin.js",
+      "path": "/Users/xingfeng/Project/git/res/node_modules/egg-development",
       "version": "2.4.1"
     },
     "logrotator": {
@@ -475,8 +475,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/tmt/git/res/node_modules/egg/config/plugin.js",
-      "path": "/Users/tmt/git/res/node_modules/egg-logrotator",
+      "from": "/Users/xingfeng/Project/git/res/node_modules/egg/config/plugin.js",
+      "path": "/Users/xingfeng/Project/git/res/node_modules/egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -486,8 +486,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/tmt/git/res/node_modules/egg/config/plugin.js",
-      "path": "/Users/tmt/git/res/node_modules/egg-static",
+      "from": "/Users/xingfeng/Project/git/res/node_modules/egg/config/plugin.js",
+      "path": "/Users/xingfeng/Project/git/res/node_modules/egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -497,8 +497,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/tmt/git/res/node_modules/egg/config/plugin.js",
-      "path": "/Users/tmt/git/res/node_modules/egg-view",
+      "from": "/Users/xingfeng/Project/git/res/node_modules/egg/config/plugin.js",
+      "path": "/Users/xingfeng/Project/git/res/node_modules/egg-view",
       "version": "2.1.0"
     },
     "nunjucks": {
@@ -511,8 +511,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/tmt/git/res/config/plugin.js",
-      "path": "/Users/tmt/git/res/node_modules/egg-view-nunjucks",
+      "from": "/Users/xingfeng/Project/git/res/config/plugin.js",
+      "path": "/Users/xingfeng/Project/git/res/node_modules/egg-view-nunjucks",
       "version": "2.2.0"
     }
   }

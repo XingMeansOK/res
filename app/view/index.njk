@@ -2,12 +2,18 @@
 <html>
     <head>
         <title>静态资源管理工具</title>
-        <link rel="stylesheet" href="public/index.css">
+        <link rel="stylesheet" href="public/css/index.css">
+        <script src="public/js/app.js"></script>
     </head>
     <body>
         {% import "head.njk" as head %}
-            {{ head.head( 'elixing' ) }}
-        hello {{ username }}
+        {{ head.head( 'elixing' ) }}
+
+        <form id="uploadForm">
+            上传文件:<input type="file" name="file">
+
+            <input type="button" value="上传" onclick="upload()">
+        </form>
     </body>
 </html>
 

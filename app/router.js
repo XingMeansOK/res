@@ -5,5 +5,8 @@
  */
 module.exports = app => {
     const { router, controller } = app;
-    router.get('/', controller.home.index);
+    // 获取首页
+    router.get( '/', controller.home.index );
+    // 上传接口
+    router.post( '/resource', controller.resource.upload )
 };
